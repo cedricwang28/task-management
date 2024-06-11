@@ -78,7 +78,7 @@ export default function CreateContent() {
           value={title}
           name="title"
           onChange={handleChange("title")}
-          placeholder="e.g, Watch a video from Fireship."
+          placeholder="e.g, Learn new features of Next.js"
         />
       </div>
       <div className="input-control">
@@ -89,7 +89,7 @@ export default function CreateContent() {
           name="description"
           id="description"
           rows={3}
-          placeholder="e.g, Watch a video about Next.js Auth"
+          placeholder="e.g, Learn new features of Nextjs14 through some video tutorials or documentation"
         ></textarea>
       </div>
       <div className="input-control">
